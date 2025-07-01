@@ -70,3 +70,4 @@ See [Contributing](https://github.com/SoftbearStudios/mk48/wiki/Contributing) Wi
 ## Trademark
 
 Mk48.io is a trademark of Softbear, Inc.
+刷新GitHub索引
