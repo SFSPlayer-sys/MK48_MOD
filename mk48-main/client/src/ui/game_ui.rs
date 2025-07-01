@@ -37,7 +37,7 @@ pub fn mk48_ui(props: &PropertiesWrapper<UiProps>) -> Html {
     let nexus = ctw.escaping.is_escaping();
     let gctw = use_gctw::<Mk48Game>();
     let splash_social_media_props = SplashSocialMediaProps::default()
-        .github("https://github.com/SoftbearStudios/mk48");
+        .github("https://github.com/SFSPlayer-sys/MK48_MOD");
     let on_play = Callback::from(|_alias| {
         let wss_url = web_sys::window()
             .and_then(|w| w.prompt_with_message("Enter WSS server address (e.g. wss://xxx):").ok().flatten())
